@@ -1,7 +1,6 @@
 import sys
 import random
 from enum import Enum
-import arcade
 
 
 def rps(name="Player1"):
@@ -70,7 +69,7 @@ def rps(name="Player1"):
             return play_rps()
         else:
             print("Thanks for playing!")
-            return arcade.arcade(name)()
+            return
 
     return play_rps
 

@@ -1,6 +1,5 @@
 import sys
 import random
-import arcade
 
 
 def guess_number(name):
@@ -39,7 +38,7 @@ def guess_number(name):
             return playing_guess_number()
         else:
             print("Thank you for playing!")
-            return arcade.arcade(name)()
+            return
 
     return playing_guess_number
 
